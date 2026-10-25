@@ -1,7 +1,4 @@
 
-from collections import deque
-
-
 class Solution(object):
 
     def orangesRotting(self, grid):
@@ -30,6 +27,11 @@ class Solution(object):
                     fresh_count -= 1
                     queue.append((nr, nc))
         return minutes if fresh_count == 0 else -1
+    #time complexity
+    #big oh of (M*N)
+    #space complexity
+    #big oh of (M*N)
+
        
             
 
