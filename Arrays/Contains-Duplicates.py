@@ -1,3 +1,6 @@
+from typing import Counter
+
+
 class Solution:
     def containsDuplicate(self, nums: list[int]) -> bool:
         count=Counter(nums)
