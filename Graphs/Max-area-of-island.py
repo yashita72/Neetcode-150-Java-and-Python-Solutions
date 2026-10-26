@@ -20,6 +20,7 @@ class Solution:
                   if m>ans:
                     ans=m
         return ans
+    #both space and time complexity is O(n*m) where n is number of rows and m is number of columns
 
 
     
