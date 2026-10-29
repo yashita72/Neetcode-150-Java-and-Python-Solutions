@@ -23,4 +23,5 @@ class Solution {
         // Return all grouped lists
         return new ArrayList<>(map.values());
     }
-}
+}//Time Complexity: $\mathcal{O}(N \cdot K \log K)$ where $N$ is the number of strings and $K$ is the maximum length of a string (due to sorting each string).
+// Space Complexity: $\mathcal{O}(N \cdot K)$ to store the grouped strings in the HashMap.
