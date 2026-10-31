@@ -30,7 +30,7 @@ class Solution2 {
         if(s.length()!=t.length()){
             return false;
         }
-        int[]count=new int[26];
+        int[]count=new int[26];//FREQUENCY ARRAY OF FIXED SIZE 26
         for(int i=0;i<s.length();i++){
             count[s.charAt(i)-'a']++;
             count[t.charAt(i)-'a']--;
@@ -44,7 +44,7 @@ class Solution2 {
     }
 }
 //time complexity is big oh(n) and space complexity is big oh(1) the detailed reason is
-//  that we are using a fixed size array of length 26 to store the frequency of
+//  that we are using a fixed size array of fixed size 26 to store the frequency of
 //  characters in the first string and then we are iterating through the second string to check 
 //  if the characters are present
 //  in the array and decrementing their count. If at any point a character's count goes below zero, 
