@@ -56,6 +56,9 @@ class Sum {
         return result;
     }
 }
-
+//time complexity is big oh of n squared because 
+// we are iterating through the array nums once and for each element in the array,
+//  we are performing a two pointer approach which takes linear time.
+//space complexity is big oh of 1 because we are using a constant amount of space
     
-}
+
