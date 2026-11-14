@@ -1,4 +1,4 @@
-package SlidingWindow;
+
 public class Besttimetobuyandsellstock{
     public int maxProfit(int[] prices) {
        int min_price=Integer.MAX_VALUE;
